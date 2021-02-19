@@ -1,3 +1,8 @@
 .picsum-img-wrapper img {
     width: 100%;
 }
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}

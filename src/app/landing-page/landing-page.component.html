@@ -1,62 +1,49 @@
 <div class="container">
-
-   <h2>New Games</h2> 
+  <h3>New Games</h3>
   <ngb-carousel
     *ngIf="images"
     [showNavigationArrows]="true"
     [showNavigationIndicators]="true"
-    style="width: 100%;"
+    style="width: 100%"
   >
     <ng-template ngbSlide *ngFor="let image of images">
-      <a href="https://www.google.fr/?q=Number+{{i+1}}" target="_blank" rel="nofollow noopener noreferrer">
+      <a
+        href="https://www.google.fr/?q=Number+{{ i + 1 }}"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+      >
         <div class="picsum-img-wrapper">
           <img [src]="image" alt="Random slide" />
         </div>
       </a>
 
-      <div class="carousel-caption">
-        
-      </div>
+      <div class="carousel-caption"></div>
     </ng-template>
   </ngb-carousel>
 
-  <hr>
+  <hr />
 
+  <h3> Best Sellers! </h3>
 
-  <h2>Best Sellers!</h2>
-
-  <div class="card-group">
-    <div class="card">
-      <img class="card-img-top" src="https://cdns.kinguin.net/media/catalog/category/cache/1/hi_image/9df78eab33525d08d6e5fb8d27136e95/HITMAN3_800_1.jpg" alt="Card image cap">
+  <div class="card-columns" style="margin-top: 2%">
+    <div class="card" *ngFor="let hero of [1,2,3,4,5,6]" tyle="width: 400rem;">
+      <img
+        class="card-img-top"
+        src="https://cdns.kinguin.net/media/catalog/category/cache/1/hi_image/9df78eab33525d08d6e5fb8d27136e95/HITMAN3_800_1.jpg"
+        alt="Card image cap"
+      />
       <div class="card-body">
         <p class="card-text">HITMAN 3 EU Epic Games CD Key</p>
       </div>
       <div class="card-footer">
         <p class="card-text"><strong class="text-muted">DKK 199</strong></p>
-    </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://cdns.kinguin.net/media/catalog/category/cache/1/hi_image/9df78eab33525d08d6e5fb8d27136e95/acvalhalla8_4.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Assassin's Creed Valhalla EU Uplay CD Key</p>
       </div>
-      <div class="card-footer">
-        <p class="card-text"><strong class="text-muted">DKK 199</strong></p>
-    </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://cdns.kinguin.net/media/catalog/category/cache/1/hi_image/9df78eab33525d08d6e5fb8d27136e95/coldwar800_2_1.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Call of Duty: Black Ops Cold War Green Gift Redemption Code</p>
-      </div>
-      <div class="card-footer">
-        <p class="card-text"><strong class="text-muted">DKK 199</strong></p>
-    </div>
     </div>
   </div>
 
 
 
+
+
+
 </div>
-
-
