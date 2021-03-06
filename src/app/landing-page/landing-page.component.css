@@ -6,3 +6,27 @@
     display: flex;
     flex: 1 1 auto;
 }
+
+.esuUhQ {
+    position: relative;
+    z-index: 0;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(38, 38, 38);
+    margin: 0px 0px 3rem;
+    border-radius: 1.6rem;
+    overflow: hidden;
+    line-height: 0;
+    transition: all 0.2s ease-in-out 0s;
+    max-width: 16rem;
+    min-width: 16rem;
+    transform: translate3d(0px, 0px, 0px);
+    border: 2px solid rgb(26, 26, 26);
+}
+
+.esuUhQ:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 1rem 2.5rem;
+    transform: translateY(-2px);
+    border: 2px solid rgb(255, 194, 15);
+}
