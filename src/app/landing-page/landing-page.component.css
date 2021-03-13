@@ -34,6 +34,29 @@
   }
 
   .card-text {
-    overflow: visible;
+    overflow-x: hidden;
   }
+
+  #bscard {
+    margin-left: 1.2%;
+  }
+
+  #rdcard {
+    margin-right: 2% !important;
+    margin-left: 1.2% !important;
+  }
+  
+}
+
+#bscard {
+  width: 10rem;
+  margin-right: 2%;
+  margin-top: 3%;
+}
+
+#rdcard {
+  width: 10rem;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 2%;
 }
