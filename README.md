@@ -1,5 +1,7 @@
-#Tecch
+# Tech
+
 Angular 
+
 Bootstrap
 
 # GameShop
