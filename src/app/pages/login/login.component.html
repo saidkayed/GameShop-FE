@@ -30,17 +30,22 @@
 
       <div>
         <a
-        class="nav-link"
-        [routerLink]="'/login'"
-        (click)="isMenuCollapsed = true"
-        >Forgot password?</a
-      >
-       
+          class="nav-link"
+          [routerLink]="'/request'"
+          >Forgot password?</a
+        >
       </div>
 
       <button class="btn btn-lg btn-primary btn-block" type="submit">
         Sign in
       </button>
+      <div style="margin-top: 5%;">
+         <a
+            class="nav-link"
+            [routerLink]="'/signup'"
+            ><strong>CREATE NEW ACCOUNT</strong></a
+          >
+      </div>
       <p class="mt-5 mb-3 text-muted">© 2021-2021</p>
     </form>
   </div>
