@@ -9,8 +9,8 @@
 
 .esuUhQ:hover {
   box-shadow: rgb(0 0 0 / 15%) 0px 1rem 2.5rem;
-  transform: translateY(-2px);
-  border: 2px solid rgb(255, 194, 15);
+  transform: translateY(-1px);
+  border: 1px solid rgb(255, 194, 15);
 }
 
 @media (max-width: 575.98px) {
